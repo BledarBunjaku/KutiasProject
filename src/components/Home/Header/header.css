@@ -1,0 +1,30 @@
+.header {
+    height: 110px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.header-logo,
+.user-logo {
+    width: 210px;
+    height: 54px;
+    background-color: transparent;
+    margin-top: 56px;
+    margin-left: 95px;
+}
+.user-logo {
+    width: max-content;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 95px;
+    align-items: center;
+}
+.user-logo p {
+    max-width: max-content;
+    padding-bottom: 3px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}

@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1460px;
+    height: 900px;
+    background-color: #121d23;
+    margin: 0 auto;
+}
+
+/* .header {
+    height: 110px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.header-logo,
+.user-logo {
+    width: 210px;
+    height: 54px;
+    background-color: transparent;
+    margin-top: 56px;
+    margin-left: 95px;
+}
+.user-logo {
+    width: max-content;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 95px;
+    align-items: center;
+}
+.user-logo p {
+    max-width: max-content;
+    padding-bottom: 3px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+} */
+
+.orders {
+    min-height: 368px;
+    max-width: 783px;
+    background-color: transparent;
+    margin: 0 auto;
+    margin-top: 176px;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.orders a {
+    text-decoration: none;
+}
+
+.orders a:hover {
+    outline: 1px solid white;
+}
+
+.new-order,
+.order-list {
+    width: 368px;
+    height: 368px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #121d23;
+    border: 1px solid #ffffff;
+    color: white;
+}
+
+.new-order__content,
+.order-list__content {
+    width: 80%;
+    height: 30%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-order__content > div {
+    width: 52px;
+    height: 51px;
+}
+
+@media all and (max-width: 755px) {
+    .orders {
+        flex-direction: column;
+        max-width: 350px;
+        height: 80vh;
+        justify-content: center;
+        margin-top: 50px;
+        padding: 3% 0;
+    }
+    .new-order,
+    .order-list {
+        width: 90%;
+        height: 300px;
+        margin: 0 auto;
+    }
+    .order-list:nth-of-type(2) {
+        margin-top: 5px;
+    }
+    .header-logo,
+    .user-logo {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}

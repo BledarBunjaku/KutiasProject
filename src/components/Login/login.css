@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+.container-login {
+    max-width: 1460px;
+    height: 900px;
+    background-color: #121d23;
+    background-image: url("../Images/loginBack.svg");
+    margin: 0 auto;
+}
+
+main {
+    max-width: 528px;
+    background-color: transparent;
+    padding-top: 56px;
+    margin: 0 auto;
+}
+
+.logo {
+    max-width: 210px;
+    height: 159px;
+    color: white;
+    background-color: transparent;
+    margin: 0 auto;
+    padding-bottom: 105px;
+}
+
+article {
+    width: 100%;
+    height: 449px;
+    background-color: #121d23;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding-left: 53px;
+    padding-right: 60px;
+}
+
+.form-name {
+    width: 100%;
+    height: 135px;
+    background-color: transparent;
+    position: relative;
+    padding-bottom: 17px;
+    color: white;
+}
+.form-name > div {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 25px;
+    line-height: 30px;
+    font-family: "OCR A Std", sans-serif;
+}
+
+.form-content > form {
+    width: 100%;
+    height: 228px;
+}
+
+.login__email,
+.login__password {
+    display: block;
+    border: none;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0;
+    padding-bottom: 5px;
+    background-color: transparent;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.login__email {
+    margin-bottom: 56px;
+}
+
+.login__password {
+    margin-bottom: 53px;
+}
+
+.submit-btn > a {
+    display: block;
+    border: 1px solid #fff;
+    background-color: transparent;
+    width: 100%;
+    height: 61px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+    text-align: center;
+    padding-top: 14px;
+}
+
+.forget-password {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.forget-password a {
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: white;
+}
+
+.login__email:focus,
+.login__password:focus {
+    outline: none;
+}
+
+@media all and (max-width: 500px) {
+    article {
+        padding: 0 10px;
+    }
+}

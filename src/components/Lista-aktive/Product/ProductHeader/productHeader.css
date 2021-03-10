@@ -1,0 +1,41 @@
+.product1 {
+    max-width: 876px;
+    min-width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+}
+.product1 p {
+    padding: 13px 0;
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+}
+.name1,
+.product-name1,
+.product-cash1,
+.product-change1 {
+    width: 80px;
+    min-width: 50px;
+    min-height: 50px;
+
+    background-color: #30efa6;
+    border: 1px solid white;
+}
+
+.name1 {
+    flex-grow: 3;
+}
+.product-name1 {
+    flex-grow: 7.2;
+}
+.product-cash1 p {
+    padding: 0;
+    margin: 0;
+    padding-top: 3px;
+}
